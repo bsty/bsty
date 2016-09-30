@@ -233,6 +233,7 @@ div {
     .post .post-content p {
       margin: 0 0 1.234em; }
       .post .post-content p code {
+        font-family: Menlo, Consolas, monospace;
         display: inline-block;
         margin: 0 5px;
         padding: 0 5px;
