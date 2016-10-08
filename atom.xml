@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://tangkunhou.com/"/>
-  <updated>2016-10-08T10:40:49.771Z</updated>
+  <updated>2016-10-08T12:46:03.799Z</updated>
   <id>https://tangkunhou.com/</id>
   
   <author>
@@ -20,7 +20,7 @@
     <link href="https://tangkunhou.com/2016/04/%E8%A7%A3%E5%86%B3%E5%9C%A8WPF-MDI%E4%B8%AD%E4%BD%BF%E7%94%A8UserControl%E8%87%AA%E5%AE%9A%E4%B9%89%E6%A0%B7%E5%BC%8F%E6%97%A0%E6%B3%95%E8%B0%83%E7%94%A8%E7%88%B6%E5%85%83%E7%B4%A0%E6%8E%A7%E4%BB%B6%E7%9A%84%E9%97%AE%E9%A2%98/"/>
     <id>https://tangkunhou.com/2016/04/解决在WPF-MDI中使用UserControl自定义样式无法调用父元素控件的问题/</id>
     <published>2016-04-22T10:17:19.000Z</published>
-    <updated>2016-10-08T10:40:49.771Z</updated>
+    <updated>2016-10-08T12:46:03.799Z</updated>
     
     <content type="html"><![CDATA[<p>在WPF中已经没有了MDI (Multiple Document Interface) ，取而代之的是TabControl，但是使用MDI的需求还是存在，所幸有一个开源项目<a href="http://wpfmdi.codeplex.com" target="_blank" rel="external">WPF.MDI</a>给WPF提供了MDI控件。使用方法如下：</p>
 <ol>
@@ -30,7 +30,7 @@
 <li>或者直接在cs文件中使用,其中<code>Container</code>是<code>MdiContainer</code>的<code>Name</code>。</li>
 </ol>
 <figure class="highlight cs"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div></pre></td><td class="code"><pre><div class="line">Container.Children.Add(<span class="keyword">new</span> MdiChild</div><div class="line">   &#123;</div><div class="line">     Title = <span class="string">"Window Using Code"</span>,</div><div class="line">     Content = <span class="keyword">new</span> ExampleControl(),</div><div class="line">     Width = <span class="number">214</span>,</div><div class="line">     Height = <span class="number">334</span>,</div><div class="line">     Position = <span class="keyword">new</span> Point(<span class="number">200</span>, <span class="number">30</span>)</div><div class="line">   &#125;);</div></pre></td></tr></table></figure>
-<p>更详细的用法可以在<a href="http://wpfmdi.codeplex.com" target="_blank" rel="external">WPF.MDI</a>主页上查看，下载时可以选择下载example以了解更详细的用法。<br><a id="more"></a><br>我的C#课需要做一个简单的学生信息管理系统，添加信息的界面如下<br><img src="https://cdn.tangkunhou.com/static/cs_WPF.MDI.png" alt="学生信息管理系统"></p>
+<p>更详细的用法可以在<a href="http://wpfmdi.codeplex.com" target="_blank" rel="external">WPF.MDI</a>主页上查看，下载时可以选择下载example以了解更详细的用法。<br><a id="more"></a><br>我的C#课需要做一个简单的学生信息管理系统，添加信息的界面如下<br><img src="/image/cs_WPF.MDI.png" alt="学生信息管理系统"></p>
 <ol>
 <li>点击添加用户信息打开添加用户信息子窗口。</li>
 <li>在子窗口中点击取消或者点击右上角的×关闭子窗口。</li>
@@ -57,13 +57,13 @@
       <category term="C#" scheme="https://tangkunhou.com/categories/C/"/>
     
     
-      <category term="学习" scheme="https://tangkunhou.com/tags/%E5%AD%A6%E4%B9%A0/"/>
-    
       <category term="C#" scheme="https://tangkunhou.com/tags/C/"/>
     
       <category term="WPF" scheme="https://tangkunhou.com/tags/WPF/"/>
     
       <category term="WPF.MDI" scheme="https://tangkunhou.com/tags/WPF-MDI/"/>
+    
+      <category term="学习" scheme="https://tangkunhou.com/tags/%E5%AD%A6%E4%B9%A0/"/>
     
   </entry>
   
@@ -170,6 +170,8 @@
       <category term="运维" scheme="https://tangkunhou.com/categories/%E8%BF%90%E7%BB%B4/"/>
     
     
+      <category term="学习" scheme="https://tangkunhou.com/tags/%E5%AD%A6%E4%B9%A0/"/>
+    
       <category term="hexo" scheme="https://tangkunhou.com/tags/hexo/"/>
     
       <category term="git" scheme="https://tangkunhou.com/tags/git/"/>
@@ -177,8 +179,6 @@
       <category term="vps" scheme="https://tangkunhou.com/tags/vps/"/>
     
       <category term="linux" scheme="https://tangkunhou.com/tags/linux/"/>
-    
-      <category term="学习" scheme="https://tangkunhou.com/tags/%E5%AD%A6%E4%B9%A0/"/>
     
   </entry>
   
